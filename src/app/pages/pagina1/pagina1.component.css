@@ -1,0 +1,121 @@
+body {
+    background-color: #87CEEB;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.container {
+    position: relative;
+    width: 932px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px; /* Ajuste para eliminar el margen entre el navbar y la página */
+}
+
+
+.board-wrapper {
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+
+.board {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.login-content {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+
+.login-content h1 {
+    margin-top: 0;
+}
+
+.login-form, .create-account {
+    margin-top: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.play-button, .how-to-play-button, .create-account-button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.play-button:hover, .how-to-play-button:hover, .create-account-button:hover {
+    background-color: #a0522d;
+}
+
+.create-account {
+    margin-top: 30px;
+}
+
+.create-account p {
+    margin-bottom: 10px;
+}
+
+.balloon {
+    position: absolute;
+    width: 50px;
+    height: auto;
+}
+
+.blue {
+    top: 10px;
+    left: 10px;
+}
+
+.red {
+    bottom: 10px;
+    left: 10px;
+}
+
+.orange {
+    top: 10px;
+    right: 10px;
+}
+
+.pink {
+    bottom: 10px;
+    right: 10px;
+}

@@ -1,0 +1,32 @@
+/* Estilo para el navbar */
+.navbar {
+    background-color: #8e203d;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* Estilo de los botones */
+.nav-link {
+    color: #290909;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer; /* Añadir cursor pointer */
+}
+
+/* Estilo para el botón activo */
+.nav-link.active {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Efecto hover */
+.nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
